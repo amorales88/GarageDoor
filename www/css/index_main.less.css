@@ -277,24 +277,6 @@ body:not(#afui) .upage-outer {
 #afui .header header.with-back > .header-left {
   display: none;
 }
-.uib_row_1:not(.cright) > .col {
-  padding-right: 20px;
-}
-.uib_row_1.cright > .col {
-  padding-left: 20px;
-}
-@media all {
-  .col-0_12-12 {
-    width: auto;
-    float: none !important;
-  }
-  .urow:not(.cright) > .col-0_12-12 {
-    padding-right: 0px !important;
-  }
-  .urow.cright > .col-0_12-12 {
-    padding-left: 0px !important;
-  }
-}
 @media all {
   #afui .grid-pad {
     padding-top: 10px;
@@ -303,7 +285,7 @@ body:not(#afui) .upage-outer {
     padding-right: 20px;
   }
 }
-@media all and (min-width: 0px) {
+@media all and (min-width: 320px) {
   #afui .row-height-1 > .col > .content-area {
     min-height: 100px;
   }
@@ -332,14 +314,6 @@ body:not(#afui) .upage-outer {
   #afui .wrapping-col > .afScrollPanel > .d-margins {
     margin-left: 6px;
     margin-right: 6px;
-  }
-  #afui .vertical-col > .d-margins,
-  #afui .vertical-col > .afScrollPanel > .d-margins {
-    margin-left: 0px;
-  }
-  #afui .vertical-col > .d-margins,
-  #afui .vertical-col > .afScrollPanel > .d-margins {
-    margin-left: 0px;
   }
   #afui .d-margins {
     margin-bottom: 10px;

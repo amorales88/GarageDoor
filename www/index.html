@@ -9,7 +9,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="app_framework/2.1/css/af.ui.min.css">
         <link rel="stylesheet" type="text/css" href="app_framework/2.1/css/icons.min.css">
-        <title>Blank App Designer Packaged Web App Project Template</title>
+        <title>Garage Door Opener</title>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 
         <!--
@@ -69,6 +69,12 @@
         -->
         <script type="application/javascript" src="app_framework/2.1/appframework.js"></script>
         <script type="application/javascript" src="app_framework/2.1/appframework.ui.js" data-ver="1"></script>
+
+        <script>
+            $("#LogInForm").submit(function(event){
+                alert("Button Clicked");
+            });
+        </script>
     </head>
 
     <body id="afui" class="">
@@ -80,22 +86,14 @@
             <h1>My Garage Door</h1>
         </header>
         <div id="content" class="uwrap">
-            <div class="upage vertical-col panel" id="mainpage" data-header="af-header-0" data-footer="none">
-                <div class="grid grid-pad urow uib_row_1 row-height-1" data-uib="layout/row" data-ver="0">
-                    <div class="col uib_col_1 col-0_12-12" data-uib="layout/col" data-ver="0">
-                        <div class="widget-container content-area vertical-col">
-                            <div class="tarea widget uib_w_2 d-margins center" data-uib="media/text" data-ver="0" name="uib_w_2">
-                                <div class="widget-container left-receptacle"></div>
-                                <div class="widget-container right-receptacle"></div>
-                                <div class="text-container">
-                                    <p>Please enter username and password</p>
-                                </div>
-                            </div>
-
-                            <span class="uib_shim"></span>
-                        </div>
-                    </div>
-                    <span class="uib_shim"></span>
+            <div class="upage panel vertical-col" id="mainpage" data-header="af-header-0" data-footer="none">
+                <div class="formCenter">
+                    <form name="login" action="index.html">
+                        <p><strong>Please enter username and password</strong></p>
+                        <input type="text" name="username" placeholder="Username">
+                        <input type="password" name="password" placeholder="Password">
+                        <input type="submit" class="button" value="Log In">
+                    </form>
                 </div>
             </div>
         </div>
