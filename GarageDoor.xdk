@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.webapp",
       "src": "webapp/template-single-view-ad/sample.zip",
       "projectGuid": "fd330664-40d2-4cb4-ad86-e97a1e8e14a4",
-      "lastModifiedDate": 1456281593613,
+      "lastModifiedDate": 1456289035586,
       "creationDate": 1456281593391
     },
     "XDK-app-designer": "true",
@@ -77,7 +77,7 @@
         "excludedLibraries_": "",
         "iosProvs_": [],
         "cordovaCLIVersion_": "5.1.1",
-        "crosswalkVersion_": "14",
+        "crosswalkVersion_": "15",
         "appVersion_": "0.0.1",
         "appAuthor_": "Intel XDK",
         "appDescription_": "Template to develop a packaged mobile web app using the App Designer UI editor.",
