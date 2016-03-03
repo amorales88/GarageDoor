@@ -19,3 +19,7 @@
 
 
 // ...additional event handlers here...
+function LogIn(){
+    alert("Button Clicked!");
+    return false;
+}
